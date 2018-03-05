@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF902747204D4A9D0081EFBB /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF902746204D4A9D0081EFBB /* model.swift */; };
 		CFB55F5C2040665200E3B092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB55F5B2040665200E3B092 /* AppDelegate.swift */; };
 		CFB55F5E2040665200E3B092 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB55F5D2040665200E3B092 /* TodoListViewController.swift */; };
 		CFB55F612040665200E3B092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB55F5F2040665200E3B092 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF902746204D4A9D0081EFBB /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		CFB55F582040665200E3B092 /* todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB55F5B2040665200E3B092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFB55F5D2040665200E3B092 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF902748204D4AA50081EFBB /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF902746204D4A9D0081EFBB /* model.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		CFB55F4F2040665200E3B092 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 				CFB55F5B2040665200E3B092 /* AppDelegate.swift */,
 				CFB55F5D2040665200E3B092 /* TodoListViewController.swift */,
 				CFB55F5F2040665200E3B092 /* Main.storyboard */,
+				CF902748204D4AA50081EFBB /* Data Model */,
 				CFB55F622040665200E3B092 /* Assets.xcassets */,
 				CFB55F642040665200E3B092 /* LaunchScreen.storyboard */,
 				CFB55F672040665200E3B092 /* Info.plist */,
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFB55F5E2040665200E3B092 /* TodoListViewController.swift in Sources */,
+				CF902747204D4A9D0081EFBB /* model.swift in Sources */,
 				CFB55F5C2040665200E3B092 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
